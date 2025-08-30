@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Portfolio - S.indhumathi</title>
+  <style>
+    body {font-family: Arial; margin:0; padding:0; background:#f3f0ff; text-align:center;}
+    header {background:#6a0dad; color:white; padding:20px;}
+    section {padding:20px;}
+    .btn {background:#6a0dad; color:white; padding:8px 14px; border:none; border-radius:5px;}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>S.indhumathi</h1>
+    <p>Student | Web Developer</p>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm S.indhumathi, a student learning HTML, CSS & JavaScript.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <p>✔ HTML  ✔ CSS  ✔ JavaScript</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <button class="btn" onclick="showProject()">Show My Project</button>
+    <p id="demo"></p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: mathima1904@gmail.com</p>
+  </section>
+
+  <script>
+    function showProject(){
+      document.getElementById("demo").innerHTML = "📌 Project: digital portfolio using html , css, JavaScript";
+    }
+  </script>
+</body>
+</html>
